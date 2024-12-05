@@ -1,0 +1,11 @@
+aws_region           = "us-east-1"
+ecr_repository_name  = "my-app-repo"
+ecs_cluster_name     = "my-app-cluster"
+task_definition_family = "my-app-task"
+task_cpu             = "256"
+task_memory          = "512"
+container_name       = "my-app-container"
+container_port       = 80
+ecs_service_name     = "my-app-service"
+desired_task_count   = 1
+subnet_ids           = ["subnet-12345", "subnet-67890"]
